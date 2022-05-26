@@ -1,0 +1,113 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+.container{
+    background-image: url("images/bg-desktop.png");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(228, 56%, 26%); 
+}
+
+.container .inner{
+    width: 80%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.inner .leftBar{
+    border-top-right-radius: 100px;
+    padding: 50px;
+    margin-right: 50px;
+    width: 500px;
+    height: 300px;
+    background-color: hsl(228, 56%, 26%);
+
+    display: flex;
+    flex-direction: column;
+
+}
+#logo{
+    width: 150px;
+    height: auto;
+    align-self: flex-start;
+}
+
+.inner .rightBar{
+    width: 700px;
+    height: 300px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+}
+
+.leftBar .icons{
+    padding: 5px;
+    margin-top: 50px;
+    
+    cursor: pointer;
+}
+
+#icon{
+    height: 25px;
+    width: auto;
+    background-color: hsl(229, 57%, 11%);
+    border: 5px solid hsl(229, 57%, 11%);
+}
+
+.w3-light-grey {
+    width: 20%;
+
+}
+.w3-round{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.w3-blue{
+    width: 70%;
+    margin-left: 0%;
+}
+
+.gbs{
+    display: grid;
+    width: 170%;
+    
+}
+.gb0{
+    margin-left: 5%;
+    grid-row: start;
+}
+.gb1000{
+    grid-row: end;
+    margin-left: 5%;
+}
+
+.gbs h2{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.rightBar h1{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 10%;
+    margin-left: 5%;
+   
+}
+.rightBar .text-box{
+    background-color: whitesmoke;
+    
+    width: 120px;
+    height: 40px;
+    margin-left: 70%;
+}
+.text-box h1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+}
