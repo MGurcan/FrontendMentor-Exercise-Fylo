@@ -100,14 +100,22 @@
    
 }
 .rightBar .text-box{
-    background-color: whitesmoke;
+    background-color: rgb(202, 192, 192);
     
     width: 120px;
     height: 40px;
     margin-left: 70%;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    border-right-style: dashed;
+    border-bottom-right-radius: 30px;
 }
+
+
 .text-box h1{
     color: black;
     font-family: sans-serif;
     font-size: 14px;
 }
+
